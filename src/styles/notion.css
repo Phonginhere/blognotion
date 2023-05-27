@@ -99,3 +99,11 @@ pre[class*="language-"] {
 .notion-hr {
   border-top: 1px solid rgba(55, 53, 47, 0.16);
 }
+
+.notion-simple-table {
+width: 100%;
+}
+.notion-simple-table tr td {
+    border: 3px solid var(--fg-color-4);
+    font-size: 14px;
+}
