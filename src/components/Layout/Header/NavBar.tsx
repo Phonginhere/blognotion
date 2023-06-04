@@ -1,7 +1,7 @@
 import Link from "next/link"
 
 const NavBar: React.FC = () => {
-  const links = [{ id: 1, name: "About", to: "/about" }, { id: 2, name: "Resume", to: "/resume" }]
+  const links = [{ id: 1, name: "About", to: "/about" }, { id: 2, name: "Resume", to: "/resume" }, { id: 3, name: "Search (Recommend)", to: "https://www.google.com/advanced_search?q=site:phongporter.vercel.app" }]
   return (
     <div className="flex-shrink-0">
       <ul className="flex flex-row">
