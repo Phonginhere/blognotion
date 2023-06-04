@@ -91,3 +91,7 @@ body::-webkit-scrollbar-thumb {
     overflow-x: hidden;
   }
 }
+
+.lb24-component-ad {
+    display: none;
+}
